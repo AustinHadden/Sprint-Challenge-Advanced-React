@@ -31,3 +31,33 @@
     transform: rotate(360deg);
   }
 }
+
+.player-cards {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin: 1%;
+}
+
+.card {
+  padding: 50px;
+}
+
+.card-body {
+  background: moccasin;
+  padding: 20px;
+  border-radius: 10px
+}
+
+.card-body h1 {
+  font-size: 25px;
+}
+
+.card-body ul {
+ text-align: left;
+ font-size: 18px;
+}
+
+.card-body li {
+  margin: 10% 0;
+}
